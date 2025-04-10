@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+:root {
+    background-color: #333333;
+}
+ 
+/* 
+#292F36 cor do background do terminal
+/*
