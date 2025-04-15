@@ -3,9 +3,9 @@
         <!-- area da barra superior -->
         <div class="h-12 bg-[#1f1e1e] flex items-center px-4 border-b border-[#363636]">
             <div class="flex space-x-2">
-                <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+                <div class="w-3 h-3 rounded-full bg-[#ff5f56] hover:bg-[#ff3b30] cursor-pointer"></div>
+                <div class="w-3 h-3 rounded-full bg-[#ffbd2e] hover:bg-[#ffa500] cursor-pointer"></div>
+                <div class="w-3 h-3 rounded-full bg-[#27c93f] hover:bg-[#1d9730] cursor-pointer"></div>
             </div>
             <div class="flex-1 text-center text-gray-400 text-sm font-mono">
                 user@localhost: ~
