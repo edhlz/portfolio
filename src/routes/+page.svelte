@@ -1,3 +1,12 @@
+<script>
+    import { onMount } from 'svelte';
+    import { _initializeTerminal } from './+page.js'; 
+
+    onMount(() => {
+        _initializeTerminal(); 
+    });
+</script>
+
 <div class="flex align-center justify-center h-screen p-12">
     <div class="w-full h-full bg-[#1f1e1e] shadow-xl flex flex-col">
         <!-- area da barra superior -->
@@ -13,7 +22,7 @@
         </div>
 
         <!-- area de conteúdo -->
-        <div class="flex-1 p-4 font-mono text-sm overflow-y-auto text-green-500">
+        <div class="flex-1 p-4 font-mono text-sm overflow-y-auto text-green-500" id="terminalContent">
             <!-- ASCII -->
             <div class="mb-4 text-blue-400">
                 <pre class="whitespace-pre-wrap break-words font-mono">
@@ -33,7 +42,8 @@
                 <p>Digite <span class="text-blue-400">'ajuda'</span> para ver a lista de comandos disponiveis.</p>
                 <p>Digite <span class="text-blue-400">'inicio'</span> para voltar pra tela incial.</p>
                 <p>Digite <span class="text-blue-400">'github'</span> ou <a href='a' class="text-blue-400 cursor-pointer hover:underline">clique aqui</a> para meu repositorio no Github.</p>
-                <p>Digite <span class="text-blue-400">'linkedin'</span> ou <span class="text-blue-400 cursor-pointer hover:underline">clique aqui</span> para meu linkedin.</p>
+                <p>Digite <span class="text-blue-400">'linkedin'</span> ou <a href='a' class="text-blue-400 cursor-pointer hover:underline">clique aqui</a> para meu linkedin.</p>
+                <p> </p>
             </div>
         </div>
 
