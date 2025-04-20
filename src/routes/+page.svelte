@@ -55,7 +55,7 @@
                 <span class="text-blue-400">~</span>
                 <span class="text-white">$</span>
                 <input type="text" 
-                       class="flex-1 bg-transparent text-white focus:outline-none"
+                       class="flex-1 bg-transparent text-white focus:outline-none placeholder-gray-500" 
                        placeholder="Digite o comando aqui..."
                        id="terminalInput">
             </div>
